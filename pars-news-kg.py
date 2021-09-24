@@ -15,3 +15,4 @@ for el in cards:
     cards_url = el.find('a').get('href')
     cards_time = el.find('span').text.strip()
     print(cards_title, cards_url, cards_time)
+    #YOOOOO
