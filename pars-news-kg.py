@@ -4,7 +4,7 @@ import lxml
 import json
 link = "https://iro.oshsu.kg/pages/news_all/"
 headers={
-    ""
+    "Hello "
 }
 req = requests.get(url=link, headers=headers, verify=False)
 soup = BS(req.content, "lxml")
